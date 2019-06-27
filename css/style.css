@@ -1,0 +1,39 @@
+.container-header{
+	display: flex;
+}
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.html-logo{
+	width: 196px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.navbar-ul{
+	display: flex;
+	justify-content: space-around;
+}
+.navbar-li{
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-right: 20px;
+	color: #3D58A6;
+}
+.logos{
+	display: flex;
+}
+
+.logo-li{
+	height: 20px;
+}
+.logo-li:before{
+	content: "";
+	border: solid;
+	color: #3D58A6;
+	height: 20px;
+	width: 3px;
+	margin:5px;
+	display: block;
+}
